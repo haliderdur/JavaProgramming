@@ -2,7 +2,6 @@
 package day01_JavaIntro; // package name of the class
 
 public class JavaIntroduction { // class header
-
     public static void main(String[] args) { //main method
 
         /*
@@ -22,6 +21,7 @@ public class JavaIntroduction { // class header
         System.out.println("\tJava is fun");
         System.out.println("/\\");
         System.out.println("\"Java\" Programming is cool");
+        System.out.println("Hello World!");
 
 
     }
