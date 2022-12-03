@@ -1,0 +1,29 @@
+Creat a class named ScrumTeam:
+    Variables:
+        PO (ProductOwner), BA (BusinessAnalyst), SM (ScrumMaster),testers (ArrayList<Testers>),  developers (ArrayList<Developers>)
+
+    Methods:
+
+addTester(Tester tester): adds the given tester to testers arraylist
+
+addTesters(Tester[] testers): adds the given testers to testers arraylist
+
+removeTester(int id): removes the tester with the given id from the arraylist of tester
+
+addDeveloper(Developer developer): adds the given developer to testers arraylist
+
+addDeveloper(Developer[] developer): adds the given developers to testers arraylist
+
+removeDeveloper(int id): removes the developer with the given id from the arraylist of developer
+
+toString(): displays the BA' name, SM' name, PO' name, number of testers and number of developers
+
+
+Create a class named AmazonInc:
+    create the objects of ProductOwner, ScrumMaster, and BusinessAnalyst
+    Create 4 objects of Testers
+    Create 5 Objects of Developers
+    Create an object of ScrumTeam
+
+Add the ProductOwner, ScrumMaster, and
+BusinessAnalyst, Testers and Developers object into the scrum team
