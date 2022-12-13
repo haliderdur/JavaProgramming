@@ -2,8 +2,16 @@ package day38_Inheritance_MethodOverriding.ShapeTask;
 
 public class Circle extends Shape {
 
-    public double radius;
+    private double radius;
     public static double PI = 3.14;
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
 
     public Circle(double radius) {
         super("Circle");
@@ -23,8 +31,9 @@ public class Circle extends Shape {
     @Override
     public String toString() {
         return "Circle{" +
-                "radius=" + radius +
-                ", name='" + name + '\'' +
+                "radius=" + getRadius() +
+                ", PI=" + PI +
+                ", name='" + getName() + '\'' +
                 "} " + super.toString();
     }
 }
