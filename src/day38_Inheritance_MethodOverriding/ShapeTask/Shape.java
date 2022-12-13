@@ -8,11 +8,20 @@ public class Shape {
     }
 
     public void setName(String name) {
+        if (name == null) {
+            System.err.println("Name can not be null");
+            System.exit(1);
+        }
+        if (name.isEmpty() || name.isBlank()) {
+            System.err.println("Invalid name");
+            System.exit(1);
+        }
+
         this.name = name;
     }
 
     public Shape(String name) {
-        this.name = name;
+        setName(name);
     }
 
     public double area() {
