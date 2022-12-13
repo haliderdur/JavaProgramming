@@ -15,7 +15,7 @@ public class Palindrome {
 
         String reversed = "";
 
-        for (int i = word.length() - 1; i > word.indexOf(0); i--) {
+        for (int i = word.length() - 1; i >= 0; i--) {
             reversed += word.charAt(i);
         }
         if (reversed.equalsIgnoreCase(word)) {
