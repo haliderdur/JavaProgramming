@@ -1,11 +1,23 @@
 package day38_Inheritance_MethodOverriding.ShapeTask;
 
 public class Square extends Shape {
-    public double side;
+    private double side;
+
+    public double getSide() {
+        return side;
+    }
+
+    public void setSide(double side) {
+        if (side <= 0) {
+            System.err.println("Invalid side: " + side);
+            System.exit(1);
+        }
+        this.side = side;
+    }
 
     public Square(double side) {
         super("Square");
-        this.side = side;
+        setSide(side);
     }
 
     @Override
@@ -21,7 +33,9 @@ public class Square extends Shape {
     public String toString() {
         return "Square{" +
                 "side=" + side +
-                ", name='" + name + '\'' +
-                "} " + super.toString();
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
     }
 }
+

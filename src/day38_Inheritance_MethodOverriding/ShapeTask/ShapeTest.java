@@ -11,20 +11,20 @@ public class ShapeTest {
         Circle circle = new Circle(5);
 
         System.out.println(square);
-        System.out.println("Area of " + square.name + ": " + square.area());
-        System.out.println("Perimeter of " + square.name + ": " + square.perimeter());
+        System.out.println("Area of " + square.getName() + ": " + square.area());
+        System.out.println("Perimeter of " + square.getName() + ": " + square.perimeter());
 
         System.out.println();
 
         System.out.println(rectangle);
-        System.out.println("Area of " + rectangle.name + ": " + rectangle.area());
-        System.out.println("Perimeter of " + rectangle.name + ": " + rectangle.perimeter());
+        System.out.println("Area of " + rectangle.getName() + ": " + rectangle.area());
+        System.out.println("Perimeter of " + rectangle.getName() + ": " + rectangle.perimeter());
 
         System.out.println();
 
         System.out.println(circle);
-        System.out.println("Area of " + circle.name + ": " + circle.area());
-        System.out.println("Perimeter of " + circle.name + ": " + circle.perimeter());
+        System.out.println("Area of " + circle.getName() + ": " + circle.area());
+        System.out.println("Perimeter of " + circle.getName() + ": " + circle.perimeter());
 
 
     }

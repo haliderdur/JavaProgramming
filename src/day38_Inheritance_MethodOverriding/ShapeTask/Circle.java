@@ -10,12 +10,16 @@ public class Circle extends Shape {
     }
 
     public void setRadius(double radius) {
+        if (radius <= 0) {
+            System.err.println("Invalid radius: " + radius);
+            System.exit(1);
+        }
         this.radius = radius;
     }
 
     public Circle(double radius) {
         super("Circle");
-        this.radius = radius;
+        setRadius(radius);
     }
 
     @Override
@@ -31,9 +35,10 @@ public class Circle extends Shape {
     @Override
     public String toString() {
         return "Circle{" +
-                "radius=" + getRadius() +
-                ", PI=" + PI +
-                ", name='" + getName() + '\'' +
-                "} " + super.toString();
+                "radius=" + radius +
+                ", PI='" + PI + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
     }
 }
