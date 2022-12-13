@@ -4,11 +4,11 @@ public class ShapeTest {
 
     public static void main(String[] args) {
 
-        Square square = new Square(5);
+        Square square = new Square(8);
 
         Rectangle rectangle = new Rectangle(4, 10);
 
-        Circle circle = new Circle(3);
+        Circle circle = new Circle(5);
 
         System.out.println(square);
         System.out.println("Area of " + square.name + ": " + square.area());
