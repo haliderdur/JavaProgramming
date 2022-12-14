@@ -7,6 +7,6 @@ public class BusinessAnalyst extends Employee {
     }
 
     public void analyze() {
-        System.out.println(jobTitle + " " + name + " is analyzing documents");
+        System.out.println(getJobTitle() + " " + getName() + " is analyzing documents");
     }
 }

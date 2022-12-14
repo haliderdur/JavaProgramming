@@ -3,8 +3,8 @@ package day37_Inheritance.scrumTask;
 public class AmazonINC {
     public static void main(String[] args) {
 
-
         String company = "Amazon INC";
+
         ProductOwner PO = new ProductOwner("Jack", 35, 'M', 8877, 160000, company);
 
         BusinessAnalyst BA = new BusinessAnalyst("Marta", 30, 'F', 6633, 135000, company);
@@ -37,13 +37,13 @@ public class AmazonINC {
         System.out.println("----------------------------------------------------------------------------");
 
         for (Tester eachTester : scrumTeam.testers) {
-            System.out.println(eachTester.jobTitle + " " + eachTester.name + ": " + eachTester.salary);
+            System.out.println(eachTester.getJobTitle() + " " + eachTester.getName() + ": " + eachTester.getSalary());
         }
 
         System.out.println();
 
         for (Developer eachDeveloper : scrumTeam.developers) {
-            System.out.println(eachDeveloper.jobTitle + " " + eachDeveloper.name + ": " + eachDeveloper.salary);
+            System.out.println(eachDeveloper.getJobTitle() + " " + eachDeveloper.getName() + ": " + eachDeveloper.getSalary());
         }
 
     }

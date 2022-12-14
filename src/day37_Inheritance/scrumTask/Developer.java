@@ -7,6 +7,6 @@ public class Developer extends Employee {
     }
 
     public void fixBugs() {
-        System.out.println(jobTitle + " " + name + " is fixing bugs");
+        System.out.println(getJobTitle() + " " + getName() + " is fixing bugs");
     }
 }

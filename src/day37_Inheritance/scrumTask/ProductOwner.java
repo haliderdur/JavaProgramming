@@ -7,6 +7,6 @@ public class ProductOwner extends Employee {
     }
 
     public void reqGathering() {
-        System.out.println(jobTitle + " " + name + " is gathering requirements of project");
+        System.out.println(getJobTitle() + " " + getName() + " is gathering requirements of project");
     }
 }

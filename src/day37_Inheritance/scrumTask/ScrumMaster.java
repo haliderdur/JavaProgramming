@@ -7,6 +7,6 @@ public class ScrumMaster extends Employee {
     }
 
     public void setMeeting() {
-        System.out.println(jobTitle + " " + name + " is preparing grooming meeting");
+        System.out.println(getJobTitle() + " " + getName() + " is preparing grooming meeting");
     }
 }
