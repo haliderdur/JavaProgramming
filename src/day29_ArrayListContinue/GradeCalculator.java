@@ -13,7 +13,7 @@ public class GradeCalculator {
         ArrayList<Integer> gradeOfA = new ArrayList<>(scores); // 90~100
         gradeOfA.removeIf(grade -> !(grade >= 90 && grade <= 100));
         System.out.println("gradeOfA = " + gradeOfA);
-        System.out.println("Total number of A: " + gradeOfA.size());
+        System.out.println("Total number of Test: " + gradeOfA.size());
 
         ArrayList<Integer> gradeOfB = new ArrayList<>(scores); // 80~89
         gradeOfB.removeIf(grade -> !(grade >= 80 && grade <= 89));

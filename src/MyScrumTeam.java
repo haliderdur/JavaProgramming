@@ -4,7 +4,7 @@ Scrum Task:
 create a class called Tester
         Attributes:
             name, employeeID, JobTitle, Salary
-        Add A constructor that can set all the fileds
+        Add Test constructor that can set all the fields
 
         Actions:
            smokeTesting(),  creatingTicket(), dailyStandUp() toString()
@@ -12,7 +12,7 @@ create a class called Tester
 create a class called Developer
           Attributes:
             name, employeeID, JobTitle, Salary
-          Add A constructor that can set all the fields
+          Add Test constructor that can set all the fields
 
           Actions:
             coding(), unitTesting(), fixingBug(), toString()
@@ -23,7 +23,7 @@ create a class called ScrumTeam
                 ArrayList<Tester> testersList = new ArrayList<>();
                 ArrayList<Developer> devopsList = new ArrayList<>();
                 int daysOfSprint;
-               Add A constructor that can set the fields PO, BA, and SM
+               Add Test constructor that can set the fields PO, BA, and SM
 
            Actions:
                   addTester(Tester tester): adds the given tester to the testers ArrayList

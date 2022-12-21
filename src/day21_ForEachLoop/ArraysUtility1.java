@@ -21,7 +21,7 @@ public class ArraysUtility1 {
         System.out.println("-------------------------------------------------------------------");
 
 // sort(array) ==> Sorts the Array in ascending order
-//            ascending order : smallest to largest  1 to 10 || A to Z
+//            ascending order : smallest to largest  1 to 10 || Test to Z
         int[] scores = {85, 90, 10, 65, 75}; // [10.....90]
         System.out.println(Arrays.toString(scores)); // [85, 90, 10, 65, 75]
 
@@ -34,7 +34,7 @@ public class ArraysUtility1 {
         String[] names = {"Anna", "Gunay", "Ahmet", "Gabriel", "Lucie", "Leila", "Zoe"};
 
         Arrays.sort(names);
-        System.out.println(Arrays.toString(names)); // sorts the names in alphabetic order according to ASCII table || A to Z
+        System.out.println(Arrays.toString(names)); // sorts the names in alphabetic order according to ASCII table || Test to Z
 
         System.out.println("-------------------------------------------------------------------");
 

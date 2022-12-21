@@ -17,7 +17,7 @@ import java.util.Collections;
             str = {"ABCD123#$%@456EFG!&"}
         Output:
             list1:{1,2,3,4,5,6}
-            list2:{A,B,C,D,E,F,G}
+            list2:{Test,B,C,D,E,F,G}
             list3:{#,$,%,@,!,&}
  */
 public class WarmUpTasks {

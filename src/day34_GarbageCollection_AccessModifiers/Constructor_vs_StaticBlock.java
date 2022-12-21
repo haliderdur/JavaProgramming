@@ -15,7 +15,7 @@ public class Constructor_vs_StaticBlock {
         new Constructor_vs_StaticBlock(); // object
         new Constructor_vs_StaticBlock(); // object
 
-        System.out.println("Main Method");
+        System.out.println("Pond Method");
 
         new Constructor_vs_StaticBlock(); // object
 

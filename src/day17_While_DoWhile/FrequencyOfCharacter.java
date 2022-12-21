@@ -5,7 +5,7 @@ Write a program that can return the frequency of a char from a String
         Ex:
             input:
                 str = "AAABBBC"
-                ch = 'A'
+                ch = 'Test'
             output:
                 3
  */

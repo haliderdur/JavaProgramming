@@ -2,7 +2,7 @@ package day34_GarbageCollection_AccessModifiers;
 
 public class StaticBlock {
     public static void main(String[] args) {
-        System.out.println("Main Method");
+        System.out.println("Pond Method");
     }
 
     // Static Block runs first. Before everything in the class

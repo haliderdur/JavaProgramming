@@ -7,7 +7,7 @@ public class Alphabet {
 
         // Create a variable that can contain 26 characters. We do not know the characters
 
-        char[] alphabet = new char[26]; // store characters. Z ~ A
+        char[] alphabet = new char[26]; // store characters. Z ~ Test
 /*               i     ch     ASCII
         alphabet[0] = 'Z';  // 90
         alphabet[1] = 'Y';  // 89

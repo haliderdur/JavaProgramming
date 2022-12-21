@@ -2,7 +2,7 @@ package day09_IfStatements;
 
 public class GradeReport {
     /*
-    Grade Report ==> A, B, C, D, F
+    Grade Report ==> Test, B, C, D, F
      */
     public static void main(String[] args) {
         int n = 75;
@@ -13,7 +13,7 @@ public class GradeReport {
                 d = n >= 60 && n < 70,
                 f = n < 60;
         if (a) {
-            score = "A";
+            score = "Test";
         } else if (b) {
             score = "B";
         } else if (c) {

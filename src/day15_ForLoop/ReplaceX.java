@@ -13,7 +13,7 @@ public class ReplaceX {
         if (word.charAt(0) == 'x') {
             System.out.println(word.replaceFirst("x", "a"));
         } else if (word.charAt(0) == 'X') {
-            System.out.println(word.replaceFirst("X", "A"));
+            System.out.println(word.replaceFirst("X", "Test"));
         } else {
             System.out.println(word);
         }

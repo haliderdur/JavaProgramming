@@ -8,12 +8,12 @@ public class ReturnMethodPractise2 {
         String str = grade(95);
         /*
         check the grade:
-            'A' ==> Excellent
+            'Test' ==> Excellent
             'B' ==> Great
             .....
          */
 
-        if (str.equals("A")) {
+        if (str.equals("Test")) {
             System.out.println("Excellent");
         } else if (str.equals("B")) {
             System.out.println("Great");
@@ -33,7 +33,7 @@ public class ReturnMethodPractise2 {
         if (score < 0 || score > 100) { // invalid
             result = "Invalid";
         } else { // valid
-            result = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F";
+            result = (score >= 90) ? "Test" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F";
         }
 
         return result;

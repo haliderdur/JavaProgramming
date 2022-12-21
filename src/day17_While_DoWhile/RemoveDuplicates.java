@@ -8,7 +8,7 @@ public class RemoveDuplicates {
         String result = "";  // "ABC"
 
         for (int i = 0; i < str.length(); i++) {
-            String ch = "" + str.charAt(i); // "A" , "A" , "B" , "B" , "C" , "C"
+            String ch = "" + str.charAt(i); // "Test" , "Test" , "B" , "B" , "C" , "C"
 
             if (result.contains(ch)) { // if the result already contains the character
                 continue; // skip

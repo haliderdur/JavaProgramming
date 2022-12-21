@@ -49,9 +49,9 @@ public class ForLoopPractises {
         System.out.println("-----------------------------------------------------------------------------------------");
 
         /*
-        A~Z
+        Test~Z
         a~z
-        Z`A
+        Z`Test
         z~a
          */
 
