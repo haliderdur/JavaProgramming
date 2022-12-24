@@ -61,6 +61,7 @@ public class TryCatchBlocks {
 
         System.out.println("--------------------------------------------------");
 
+        System.out.println("Test4 started");
 
         System.out.println("Hello");
 
@@ -74,15 +75,26 @@ public class TryCatchBlocks {
 
         System.out.println("Cydeo");
 
+        System.out.println("Test4 completed");
+
 
         System.out.println("------------------------------------------");
 
+        System.out.println("Test5 started");
 
         try {
             FileInputStream file = new FileInputStream("File path");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+
+        try {
+            System.out.println("Halid".substring(3, 1));
+        } catch (RuntimeException e) {
+            System.out.println(e.getMessage());  // begin 3, end 1, length 5
+        }
+
+        System.out.println("Test5 completed");
 
 
     }
