@@ -1,6 +1,6 @@
 package day43_Abstraction.employee;
 
-public abstract class Tester extends Employee {
+public final class Tester extends Employee {
 
     public Tester(String name, int age, char gender, long id, String jobTitle, double salary) {
         super(name, age, gender, id, jobTitle, salary);
