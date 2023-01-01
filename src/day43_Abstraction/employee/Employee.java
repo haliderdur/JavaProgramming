@@ -2,14 +2,17 @@ package day43_Abstraction.employee;
 
 public abstract class Employee extends Person {
 
-    private String jobTitle;
     private final long id;
+    private String jobTitle;
     private double salary;
 
-    public Employee(String name, int age, char gender, String jobTitle, long id, double salary) {
+    public Employee(String name, int age, char gender, long id, String jobTitle, double salary) {
         super(name, age, gender);
-        this.jobTitle = jobTitle;
+        if (id <= 0) {
+            throw new RuntimeException("Invalid ID: " + id);
+        }
         this.id = id;
+        this.jobTitle = jobTitle;
         this.salary = salary;
     }
 
