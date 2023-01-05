@@ -6,6 +6,10 @@ public class Tiger extends Animal {
         super(name, age, size, breed, gender, color);
     }
 
+    public void roar() {
+        System.out.println(getName() + " is roaring");
+    }
+
     @Override
     public void eat() {
         System.out.println(getName() + " is eating deer");

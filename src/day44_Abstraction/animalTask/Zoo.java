@@ -28,8 +28,14 @@ public class Zoo {
         System.out.println();
 
         dog.eat();
+        dog.bark();
+
         cat.eat();
+        cat.meow();
+
         tiger.eat();
+        tiger.roar();
+
         parrot.eat();
         eagle.eat();
 

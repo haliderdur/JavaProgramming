@@ -6,6 +6,10 @@ public class Cat extends Animal {
         super(name, age, size, breed, gender, color);
     }
 
+    public void meow() {
+        System.out.println(getName() + " is meowing");
+    }
+
     @Override
     public void eat() {
         System.out.println(getName() + " is eating cat food");
