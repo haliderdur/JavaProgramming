@@ -23,6 +23,7 @@ public class OddOrEven {
             if (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) {
                 System.err.println("Invalid entry: " + answer);
                 continue;
+
             }
             if (answer.equalsIgnoreCase("no")) {
                 System.out.println("Thank you!");
