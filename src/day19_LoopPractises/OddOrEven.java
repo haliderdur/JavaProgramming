@@ -17,12 +17,12 @@ public class OddOrEven {
                 System.out.println(num + " is odd number");
             }
 
-            System.out.println("Would you like to enter anpther number? yes/no");
+            System.out.println("Would you like to enter another number? yes/no");
             String answer = scan.next();
 
             if (!(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("no"))) {
                 System.err.println("Invalid entry: " + answer);
-                System.exit(0);
+                continue;
             }
             if (answer.equalsIgnoreCase("no")) {
                 System.out.println("Thank you!");
